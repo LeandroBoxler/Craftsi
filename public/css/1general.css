@@ -1,3 +1,8 @@
+:root{
+    --colorRojo: #ef4c27;
+    --colorGris: #c26868;
+    --colorBlanco: #ffffff;
+}
 * {
     padding: 0;
     margin: 0;
@@ -9,11 +14,30 @@ li{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: var(--colorBlanco);
 }
 body{
     font-family: "lato";
     max-width: 1140px;
     margin: 0 auto;
     background-image: url(/img/bg-2.png);
+}
+.box__end{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+
+}
+.box__card{
+        min-width: 320px;
+        width: 90% ;
+        margin: 50px auto;
+        background-color: white;
+        box-shadow: 5px 5px 5px gray;
+        padding: 20px;
+        border-radius: 5px;
+}
+.link{
+    color: var(--colorRojo);
 }

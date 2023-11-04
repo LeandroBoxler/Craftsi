@@ -9,15 +9,16 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.header section a{
+.header__section--buttom-nav{
     border: 1px solid white;
     padding: 5px;
     border-radius: 4px;
     font-size: 1.5rem;
 }
 header nav{
-
     display: none;
+    
+    
 }
 header ul{
     margin-top: 10px;

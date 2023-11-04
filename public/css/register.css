@@ -1,0 +1,12 @@
+.register__main__section{
+    width: 90% ;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 5px 5px 5px gray;
+    padding: 20px;
+    border-radius: 5px;
+}
+.box__card--title{
+    margin-bottom: 15px;
+    text-align: end;
+}
